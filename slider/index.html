@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="slider.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="slider">
+        <div class="slider__container container">
+            <img src="svg/arrowL.svg" class="slider__arrow" id="before">
+
+            <section class="slider__body slider__body--show" data-id="1">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Beer</h2>
+                    <p class="slider__review">an alcoholic drink made from yeast-fermented malt flavoured with hops.
+                    </p>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="images/beer.jpg" class="slider__img">
+                </figure>
+            </section>
+
+            <section class="slider__body" data-id="2">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Wine</h2>
+                    <p class="slider__review">an alcoholic drink made from fermented grape juice.
+                    </p>
+                </div>
+                
+                <figure class="slider__picture">
+                    <img src="images/wine.jpg" class="slider__img">
+                </figure>
+            </section>
+
+            <section class="slider__body" data-id="3">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Cocktail</h2>
+                    <p class="slider__review">A cocktail drink is any mixed drink with at least two cocktail ingredients and is usually alcohol-based.
+                    </p>
+                </div>
+                
+                <figure class="slider__picture">
+                    <img src="images/cocktail.jpg" class="slider__img">
+                </figure>
+            </section>
+
+            <img src="svg/arrowR.svg" class="slider__arrow" id="next">
+        </div>
+    </section>
+
+
+
+    <script src="slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid grey;
+    padding: 20px;
+}
+
+
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.taskContainer__create{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+.taskContainer__input{
+    flex-grow: 1;
+}
+
+
+.taskContainer__btn,
+.listContainer__item__btnDelete{
+    padding: 10px 25px;
+    background-color: #afd6e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listContainer{
+    width: 100%;
+    border: 2px solid  #348a9f;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.listContainer__item{
+    border: 1px dashed rgb(148, 148, 148);
+    padding: 10px;
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 15px;
+}
+
+.listContainer__item__input{
+    flex-grow: 1;
+    border: none;
+}
+
+.listContainer__item__input:focus{
+    outline: 1px solid #348a9f;
+}
+
+
+

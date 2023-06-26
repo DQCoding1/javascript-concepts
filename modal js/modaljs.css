@@ -1,0 +1,85 @@
+/* 
+.modal{
+    opacity: 0;
+    pointer-events: none;
+    transition: .7s;
+    --transform: translateY(-100vh)
+}
+
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    --transform: translateY(0)
+}
+
+
+.modal__content{
+    transform: var(--transform);
+    transition: .7s;
+} */
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ .modal{
+    opacity: 0;
+    pointer-events: none;
+    transition: .7s;
+}
+
+.modal__content{
+    transform: translateY(-100vh);
+    transition: .7s;
+}
+
+.modal--show .modal__content{
+    transform: translateY(0);
+    transition: .7s;
+}
+
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: .7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

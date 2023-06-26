@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-frutas{
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.article{
+    background-color: rgb(244, 244, 244);
+    border-radius: 3px;
+    border: 1px solid grey;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.button{
+    padding: 10px 18px;
+    margin-top: 20px;
+    background-color:#2274A5;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(237, 207, 87);
+    place-items: center;
+    list-style: none;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+li{
+    border: 2px solid grey;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    
+}
+
+span:nth-child(2){
+    background-color:#2274A5;
+    font-size: 20px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+
+}

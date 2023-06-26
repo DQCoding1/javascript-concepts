@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-item{
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 8px 4px;
+}

@@ -1,0 +1,1 @@
+clousures, localStorage, Drag n drop

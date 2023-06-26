@@ -1,0 +1,140 @@
+.footer{
+    background-color: var(--main-color);
+    padding: 50px;
+    color: var(--colortext);
+
+    @media(max-width:980px){
+        padding: 35px;
+    }
+    @media (max-width:565px){
+        padding: 10px;
+    }
+}
+
+
+.section-knowMore{
+
+    &__h2{
+        text-align: center;
+    }
+
+    &__container-a{
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__a{
+        padding: 20px;
+        @include links(var(--colortext));
+    }
+    
+
+}
+
+
+.section-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    &__container{
+        width: 60%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 20px;
+        border: 2px solid var(--secondary-color);
+
+        @media (max-width:980px){
+            gap: 20px;
+        }
+        @media (max-width:565px){
+            // padding: 10px;
+            width: 90%;
+        }
+    }
+
+    &__h2{
+
+        @media (max-width:700px){
+            font-size: 20px;   
+        }
+    }
+
+    &__names,
+    &__message{
+        padding: 10px 20px;
+        width: 90%;
+        border-radius: 5px;
+        color: var(--color-text);
+        outline: none;
+        border: none;
+        background-color: var(--secondary-color);
+
+        &:focus{
+            outline: 4px solid var(--colortexthover);
+        }
+
+        &::placeholder{
+            color: var(--color-text);
+        }
+
+        &:not(:placeholder-shown){
+            background-color: var(--third-color);
+        }
+        
+        @media (max-width:880px){
+            padding: 5px;
+        }
+    
+        
+    }
+
+    &__send{
+        @include btn(var(--secondary-color), 50%);
+        width: 20%;
+        color: var(--color-text);
+        &:hover{
+            background-color: var(--third-color);
+        }
+        @media (max-width:880px){
+            padding: 0;
+        }
+    }
+    
+}
+
+.section-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px ;
+
+    &__h2{
+        @media (max-width:565px){
+            font-size: 15px;
+        }
+
+    }
+
+    &__images{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__img{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        background-color: rgb(224, 224, 224);
+        border-radius: 4px;
+        object-fit: contain;
+        @media (max-width:880px){
+            width: 30px;
+            height: 30px;
+        }
+        
+    }
+}

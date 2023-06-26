@@ -1,0 +1,45 @@
+
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+
+    &__loading1,
+    &__loading2,
+    &__loading3{
+        width: 10px;
+        height: 10px;
+        transform: scale(0.2);
+        background-color: var(--colortext);
+        border-radius: 50%;
+        animation-name: loading;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;  
+        animation-duration: 700ms;
+    }
+
+    &__loading2{
+        animation-delay: 100ms;
+    }
+
+    &__loading3{
+        animation-delay: 200ms;
+    }
+
+    
+}
+
+
+
+@keyframes loading {
+
+    100%{
+        transform: scale(1);
+    }
+    
+}

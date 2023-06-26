@@ -1,0 +1,11 @@
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    object-fit:cover;
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+

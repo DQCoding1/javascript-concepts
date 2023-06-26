@@ -1,0 +1,39 @@
+.container div{
+    width: 500px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.item1{
+    background-color: rgb(120, 120, 255);
+}
+
+.item2{
+    background-color: rgb(255, 237, 120);
+    opacity: 0.2;
+    transform: translateX(25%);
+    transition: 500ms;
+}
+
+.item2.visible{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.item3{
+    background-color: rgb(154, 255, 120);
+    opacity: 0.5;
+    transform: scale(0.5);
+    transition: 500ms;
+}
+
+.item3.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carritoCompras1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="conatiner">
+        <div class="container-frutas">
+
+            <article class="article att">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Fresa 🍓</h5>
+                        <button class="button" data-fruta="Fresa">Agregar</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Sandía 🍉</h5>
+                        <button class="button" data-fruta="Sandía">Agregar</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Coco 🥥</h5>
+                        <button class="button" data-fruta="Coco">Agregar</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+
+    <section class="container">
+        <ul class="list-group" id="carrito"></ul>
+    </section>
+
+    <template id="template">
+        <li>
+            <span class="template-title"></span>
+            <span class="template-cantidad"></span>
+        </li>
+    </template>
+
+
+    
+
+    <script src="carritoCompras1.js"></script>
+    <script src="carritoCompras1v2.js"></script>
+</body>
+</html>

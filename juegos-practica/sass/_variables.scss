@@ -1,0 +1,25 @@
+
+.darkMode{
+    --main-color: rgb(17, 17, 17);
+    --secondary-color: rgb(99, 99, 99);
+    --third-color: rgb(67, 67, 67);
+    --colortext: white;
+    --colortexthover: rgb(189, 250, 205);
+    --box-shadow: 0px 0px 10px rgb(183, 183, 183);
+    --underline: #bc0152;
+    
+}
+
+
+.lightMode{
+    --main-color: rgb(240, 240, 240);
+    --secondary-color: rgb(210, 210, 210);
+    --secondary-color-hover: rgb(119, 119, 119);
+    --colortext: rgb(0, 0, 0);
+    --colortexthover: rgb(189, 250, 205);
+    --box-shadow: 0px 5px 30px rgb(0, 0, 0);
+    --underline: rgb(255, 81, 69);
+}
+
+
+
